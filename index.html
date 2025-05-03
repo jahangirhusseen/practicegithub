@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jahangir Hussen - Front-End Web Designer</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body class="font-poppins text-gray-800">
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full bg-white shadow-md z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-semibold text-gray-900">Jahangir Hussen</div>
+            <div class="hidden md:flex space-x-6">
+                <a href="#home" class="text-gray-600 hover:text-blue-600">Home</a>
+                <a href="#about" class="text-gray-600 hover:text-blue-600">About</a>
+                <a href="#portfolio" class="text-gray-600 hover:text-blue-600">Portfolio</a>
+                <a href="#skills" class="text-gray-600 hover:text-blue-600">Skills</a>
+                <a href="#contact" class="text-gray-600 hover:text-blue-600">Contact</a>
+            </div>
+            <div class="md:hidden">
+                <button id="burger" class="focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="nav-links" class="hidden md:hidden bg-white shadow-md">
+            <a href="#home" class="block px-6 py-2 text-gray-600 hover:text-blue-600">Home</a>
+            <a href="#about" class="block px-6 py-2 text-gray-600 hover:text-blue-600">About</a>
+            <a href="#portfolio" class="block px-6 py-2 text-gray-600 hover:text-blue-600">Portfolio</a>
+            <a href="#skills" class="block px-6 py-2 text-gray-600 hover:text-blue-600">Skills</a>
+            <a href="#contact" class="block px-6 py-2 text-gray-600 hover:text-blue-600">Contact</a>
+        </div>
+    </nav>
+
+
+
+
+
+
+  
+<!-- Event -->
+<div class="w-full h-[100vh] flex justify-center items-center">
+    <img src="" class="w-56 h-56 cursor-pointer" alt="lodu" id="cokkhaimg">
+    <button class="inline-block bg-white text-blue-600 font-semibold py-3 px-6 rounded-lg hover:bg-gray-100 transition" id="cokkha">Roll dice</button>
+  
+
+
+  
+    <form action="" id="myForm">
+      <input type="text" placeholder="TEXT" id="ttext" class="border border-gray-300 rounded px-4 py-2">
+      <button type="submit" id="subBtn">submit</button>
+    </form>
+   </div>
+  
+
+
+
+
+
+
+    <!-- Hero Section -->
+    <section id="home" class="min-h-screen bg-gradient-to-r from-blue-500 to-cyan-500 flex items-center justify-center text-center text-white">
+        <div class="container mx-auto px-6">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">Hi, I'm Jahangir Hussen</h1>
+            <h2 class="text-2xl md:text-3xl mb-6">Front-End Web Designer</h2>
+            <p class="text-lg md:text-xl mb-8 max-w-2xl mx-auto">Creating beautiful, responsive, and user-friendly websites with modern web technologies.</p>
+            <a href="#portfolio" class="inline-block bg-white text-blue-600 font-semibold py-3 px-6 rounded-lg hover:bg-gray-100 transition">View My Work</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-gray-100">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">About Me</h2>
+            <p class="text-lg max-w-2xl mx-auto">I'm a passionate Front-End Web Designer with expertise in crafting visually appealing and functional websites. I specialize in HTML, CSS, JavaScript, and modern frameworks like React. My goal is to deliver seamless user experiences through clean code and creative design.</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">My Portfolio</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition transform hover:-translate-y-1">
+                    <img src="https://via.placeholder.com/300x200" alt="Project 1" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Project 1</h3>
+                        <p class="text-gray-600 mb-4">A responsive e-commerce website built with HTML, CSS, and JavaScript.</p>
+                        <a href="#" class="text-blue-600 font-semibold hover:underline">View Project</a>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition transform hover:-translate-y-1">
+                    <img src="https://via.placeholder.com/300x200" alt="Project 2" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Project 2</h3>
+                        <p class="text-gray-600 mb-4">A portfolio website for a photographer using React and Tailwind CSS.</p>
+                        <a href="#" class="text-blue-600 font-semibold hover:underline">View Project</a>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition transform hover:-translate-y-1">
+                    <img src="https://via.placeholder.com/300x200" alt="Project 3" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Project 3</h3>
+                        <p class="text-gray-600 mb-4">A blog platform with dynamic content loading using JavaScript.</p>
+                        <a href="#" class="text-blue-600 font-semibold hover:underline">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">My Skills</h2>
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-4xl mx-auto">
+                <div class="bg-white p-4 rounded-lg shadow-md text-center font-semibold">HTML5</div>
+                <div class="bg-white p-4 rounded-lg shadow-md text-center font-semibold">CSS3</div>
+                <div class="bg-white p-4 rounded-lg shadow-md text-center font-semibold">JavaScript</div>
+                <div class="bg-white p-4 rounded-lg shadow-md text-center font-semibold">React</div>
+                <div class="bg-white p-4 rounded-lg shadow-md text-center font-semibold">Tailwind CSS</div>
+                <div class="bg-white p-4 rounded-lg shadow-md text-center font-semibold">Bootstrap</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">Contact Me</h2>
+            <p class="text-lg mb-8 max-w-2xl mx-auto">Interested in working together? Feel free to reach out!</p>
+            <form id="contact-form" class="max-w-lg mx-auto space-y-4">
+                <input type="text" placeholder="Your Name" required class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                <input type="email" placeholder="Your Email" required class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                <textarea placeholder="Your Message" required class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 h-32 resize-y"></textarea>
+                <button type="submit" class="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 transition">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2025 Jahangir Hussen. All Rights Reserved.</p>
+            <div class="mt-4 space-x-4">
+                <a href="#" class="hover:text-blue-400">LinkedIn</a>
+                <a href="#" class="hover:text-blue-400">GitHub</a>
+                <a href="#" class="hover:text-blue-400">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>
